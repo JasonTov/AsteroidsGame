@@ -17,4 +17,20 @@ class Bullet extends Floater
     myCenterX += myXspeed;
     myCenterY += myYspeed;
   }
+  public double getSpeed()
+  {
+    return sqrt(((float)myXspeed*(float)myXspeed)+((float)myYspeed*(float)myYspeed));
+  }
+  public double getDir()
+  {
+    return myPointDirection;
+  }
+    public float getX()
+  {
+    return (float)myCenterX;
+  }
+  public float getY()
+  {
+    return (float)myCenterY;
+  }
 }
