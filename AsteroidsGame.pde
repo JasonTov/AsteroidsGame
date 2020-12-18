@@ -119,7 +119,6 @@ public void draw()
   {
     if(!failed)
     {
-      System.out.println(score);
       failed = true;
       storm = new ArrayList<Asteroid>();
       barrage = new ArrayList<Bullet>();
